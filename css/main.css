@@ -1,8 +1,12 @@
-bady{
-  background-color: red;
+
+body{
+  margin: 0;
 }
 
-.main-para {
-  background-color: blue;
-  
+#para1 {
+  background-color: #a3a3f1;
+  display: inline;
+  /*margin-top: 0;
+  margin-bottom: 0;
+  width: fit-content;*/
 }
