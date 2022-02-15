@@ -1,11 +1,93 @@
+/*html {
+  box-sizing: border-box;
+}
 
-body{
-  margin: 0;
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+
+  h1{
+    font-family: "Sacramento", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+h2 {
+  font-family: "Sacramento", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
 }
-p{
-  background-color: #ddd;
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+.cover {
+  background-color: #F2D99D;
+  display: block;
+  margin: auto;
+  /*border: 5px solid #9C710C;*/
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-#para1 {
-  background-color: #a3a3f1;
-  display: inline;
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+    text-align: center;
+  }
+
+  .team {
+    /*background-color: #F2D99D;*/
+    display: block;
+    margin: auto;
+    /*border: 5px solid #9C710C;*/
+    width: 100%;
+  }
+.top {
+  background-color: #F2D99D;
+  padding: 20px 150px;
 }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #9C710C;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #555;
+  }
+
+  .row {
+    padding: 20px 150px;
+  }
