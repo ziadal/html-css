@@ -2,7 +2,9 @@
 body{
   margin: 0;
 }
-
+p{
+  background-color: #ddd;
+}
 #para1 {
   background-color: #a3a3f1;
   display: inline;
