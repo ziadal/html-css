@@ -69,11 +69,19 @@ a:active {
     clear: both;
     display: table;
   }
+
+  .mail {
+    font-family: monospace;
+    font-size: 1vw;
+    text-align: center;
+    color: lightblue;
+
+  }
   .mission {
-    /*display: block;
+    display: block;
     margin: auto;
-    width: 30%;
-    height: 30%;*/
+    width: 50%;
+    height: 50%;
     float: left;
   }
   .title {
