@@ -1,18 +1,10 @@
-html {
+/*html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-
-  h1{
-    font-family: "Sacramento", sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    padding: 1% 0;
-  }
+}*/
 
 h2 {
   font-family: "Sacramento", sans-serif;
@@ -34,14 +26,17 @@ h2 {
       display: block;
     }
   }
-.cover {
-  background-color: #F2D99D;
-  display: block;
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+  .cover {
+    border-radius: 25px;
+    border-style: inset;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 05;
+
+  }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
@@ -68,10 +63,12 @@ h2 {
     /*border: 5px solid #9C710C;*/
     width: 100%;
   }
-.top {
-  background-color: #F2D99D;
-  padding: 2% 10% 0 10%;
-}
+  .top {
+    background-image: linear-gradient(#F2D99D, white);
+    padding: 2% 10% 2% 10%;
+    position: relative;
+    text-align: center;
+  }
   .button {
     border: none;
     outline: 0;
@@ -87,7 +84,14 @@ h2 {
   .button:hover {
     background-color: #555;
   }
-
+  .page-title {
+    font-family: "Sacramento", sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .row {
     padding: 20px 150px;
   }
