@@ -8,7 +8,7 @@
 
 h2 {
   font-family: "Sacramento", sans-serif;
-  font-size: 30px;
+  font-size: 2vw;
   text-align: center;
   padding: 20px 0;
 }
@@ -82,10 +82,8 @@ a:active {
   }
 
   .team {
-    /*background-color: #F2D99D;*/
     display: block;
     margin: auto;
-    /*border: 5px solid #9C710C;*/
     width: 100%;
   }
   .top {
