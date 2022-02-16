@@ -38,7 +38,7 @@ a:active {
     margin-bottom: 16px;
     padding: 0 8px;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .column {
       width: 100%;
       /*display: block;*/
@@ -103,7 +103,7 @@ a:active {
   .team {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 240px;
   }
   .top {
     background-image: linear-gradient(#F2D99D, white);
