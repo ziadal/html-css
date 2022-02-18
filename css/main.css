@@ -95,6 +95,8 @@ a:active {
     height: 50%;
     float: left;
     border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 15px;
   }
   .title {
     color: grey;
